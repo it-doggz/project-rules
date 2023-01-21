@@ -1,5 +1,7 @@
 package com.itdoggz.projectrules.exception;
 
+import static com.itdoggz.projectrules.exception.util.Utils.requireNonNull;
+
 /**
  * A functional interface that takes a value of type T and returns a value of type R, and it may throw an exception.
  * A realization of {@link java.util.function.Function} with exception
@@ -54,14 +56,5 @@ public interface FunctionE<T, R> {
      */
     static <T> FunctionE<T, T> identity() {
         return t -> t;
-    }
-
-    /**
-     * @throws Exception if {@code obj} is null
-     */
-    private <X> void requireNonNull(X obj) throws Exception {
-        if (obj == null) {
-            throw new Exception(new NullPointerException("FinctionE can't be null"));
-        }
     }
 }
