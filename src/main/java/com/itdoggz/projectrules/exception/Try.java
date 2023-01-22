@@ -1,5 +1,8 @@
 package com.itdoggz.projectrules.exception;
 
+import com.itdoggz.projectrules.function.FunctionE;
+import com.itdoggz.projectrules.function.SupplierE;
+
 import java.util.Optional;
 import java.util.function.Consumer;
 import java.util.function.Function;
