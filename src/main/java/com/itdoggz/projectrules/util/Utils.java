@@ -1,6 +1,6 @@
-package com.itdoggz.projectrules.exception.util;
+package com.itdoggz.projectrules.util;
 
-import com.itdoggz.projectrules.exception.FunctionE;
+import com.itdoggz.projectrules.function.FunctionE;
 
 public final class Utils {
 

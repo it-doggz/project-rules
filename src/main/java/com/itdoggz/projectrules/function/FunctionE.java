@@ -1,6 +1,6 @@
-package com.itdoggz.projectrules.exception;
+package com.itdoggz.projectrules.function;
 
-import static com.itdoggz.projectrules.exception.util.Utils.requireNonNull;
+import static com.itdoggz.projectrules.util.Utils.requireNonNull;
 
 /**
  * A functional interface that takes a value of type T and returns a value of type R, and it may throw an exception.

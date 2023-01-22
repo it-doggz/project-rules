@@ -1,4 +1,4 @@
-package com.itdoggz.projectrules.exception;
+package com.itdoggz.projectrules.function;
 
 /**
  * The analog of {@link java.util.function.Supplier}, but can throw exception
