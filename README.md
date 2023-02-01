@@ -20,3 +20,9 @@ Use `Optional<T>` from `java.util`
 ### Rule 3
 
 Use lambda expressions for wrapping around any code
+
+### Transactor
+
+Implement `com.itdoggz.projectrules.transactor.Transactor` interface
+with Spring `@Service` and
+`@Trancational(propagation = Propagation.REQUIRES_NEW)` to use transactions pointwise
