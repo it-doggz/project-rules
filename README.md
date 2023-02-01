@@ -26,3 +26,14 @@ Use lambda expressions for wrapping around any code
 Implement `com.itdoggz.projectrules.transactor.Transactor` interface
 with Spring `@Service` and
 `@Trancational(propagation = Propagation.REQUIRES_NEW)` to use transactions pointwise
+
+### Installation
+
+Execute `mvn clean install` and then add dependency into a project:
+```xml
+<dependency>
+    <groupId>com.itdoggz</groupId>
+    <artifactId>project-rules</artifactId>
+    <version>1.0.0</version>
+</dependency>
+```
