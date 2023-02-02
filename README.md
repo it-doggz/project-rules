@@ -29,7 +29,8 @@ with Spring `@Service` and
 
 ### Installation
 
-Execute `mvn clean install` and then add dependency into a project:
+Execute `mvn clean install` using Java 17 and then add dependency into a project:
+
 ```xml
 <dependency>
     <groupId>com.itdoggz</groupId>
