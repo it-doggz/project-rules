@@ -38,6 +38,8 @@ public final class ErrorResponse implements Cloneable {
 
     public class ErrorResponseBuilder {
 
+        public static final String ISO_FORMAT = "yyyy-MM-dd'T'hh:mm:ss.SSS";
+
         private ErrorResponseBuilder() {
         }
 
@@ -52,7 +54,7 @@ public final class ErrorResponse implements Cloneable {
         }
 
         public ErrorResponseBuilder withTime(LocalDateTime time) {
-            ErrorResponse.this.time = time.format(DateTimeFormatter.ofPattern("yyyy-MM-dd'T'hh:mm:ss.SSS"));
+            ErrorResponse.this.time = time.format(DateTimeFormatter.ofPattern(ISO_FORMAT));
             return this;
         }
 
