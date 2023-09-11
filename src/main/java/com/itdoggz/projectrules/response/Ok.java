@@ -3,7 +3,7 @@ package com.itdoggz.projectrules.response;
 import java.util.Optional;
 import java.util.function.Consumer;
 
-public record Ok<T>(Payload<T> payload) implements Response<T> {
+record Ok<T>(Payload<T> payload) implements Response<T> {
 
     @Override
     public Optional<T> get() {
